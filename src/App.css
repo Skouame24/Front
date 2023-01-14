@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: century;
+}
+.header{
+  background-image: url(./asset/pexels-rodnae-productions-10376258.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.titre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.titre h1{
+  color: #fff;
+  font-size: 70px;  
+}
+
+.bouton{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-top: 12px;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  border: none;
+}
+.bouton a{
+  color:#a480e7c7;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: none;
+  
+}
